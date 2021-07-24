@@ -10,11 +10,11 @@
     </filter>
     <filter-mapping>
         <filter-name>AuthenticationFilter</filter-name>
-        <servlet-name>AdminServlet</servlet-name>
+        <servlet-name>NoteServlet</servlet-name>
     </filter-mapping>
     <filter-mapping>
         <filter-name>AuthenticationFilter</filter-name>
-        <servlet-name>NoteServlet</servlet-name>
+        <servlet-name>AdminServlet</servlet-name>
     </filter-mapping>
     <filter-mapping>
         <filter-name>AdminFilter</filter-name>
